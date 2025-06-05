@@ -3,7 +3,7 @@
 > 개별 프로젝트
 
 - 프로젝트명 : 상품 설명 자동화 AI (인원 1명)
-- 기간 : [프로젝트 시작일] ~ [프로젝트 종료일] ([기간]주)  # 실제 기간으로 수정
+- 기간 : 2025.05.26 ~ 2025.06.06 (1주)
 - Language : Python 3.10.9
 - Framework : FastAPI 0.115.7, Jinja2 3.1.5, Python-Multipart 0.0.20, uvicorn 0.34.0
 - 프로젝트 소개 : LLM(거대 언어 모델)을 활용하여 매력적인 상품 설명을 자동으로 생성, 판매자의 효율성 증대 및 마케팅 효과를 극대화하는 AI 서비스입니다.
@@ -23,15 +23,13 @@
 ![깃허브 언어 사용 순위](https://github-readme-stats.vercel.app/api/top-langs/?username=yeonhwa88&layout=compact&theme=dark)
 
 ## 목차
-[1. 주제선정 및 배경, 목표](#1-주제선정-및-배경-목표)<br>
+[1. 주제 선정 및 배경, 목표](#1-주제-선정-및-배경-목표)<br>
 [2. 주요 기능 및 흐름](#2-주요-기능-및-흐름)<br>
 [3. 기술 스택 및 개발 환경](#3-기술-스택-및-개발-환경)<br>
 [4. LLM 활용 전략 및 결과물 평가](#4-llm-활용-전략-및-결과물-평가)<br>
-[5. 웹 인터페이스 구현](https://github.com/사용자이름/저장소이름?tab=readme-ov-file#5-웹-인터페이스-구현)<br>
-[6. 설치 및 실행 방법](https://github.com/사용자이름/저장소이름?tab=readme-ov-file#6-설치-및-실행-방법)<br>
+[5. 웹 인터페이스 구현](#5-웹-인터페이스-구현)<br>
+[6. 설치 및 실행 방법](#6-설치-및-실행-방법)<br>
 [7. 연구 결과, 시사점 및 개선 방안](#7-연구-결과-시사점-및-개선-방안)<br>
-
----
 
 ### **1. 주제 선정 및 배경, 목표**
 
@@ -86,6 +84,7 @@ Google Gemini API를 활용하여 **프롬프트 엔지니어링**으로 상품 
     GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
     ```
     (Gemini API 키는 Google AI Studio에서 발급받을 수 있습니다.)
+
 5.  **애플리케이션 실행:**
     ```bash
     uvicorn main:app --reload --port 8000
@@ -98,6 +97,5 @@ Google Gemini API를 활용하여 **프롬프트 엔지니어링**으로 상품 
 LLM 기반 상품 설명 자동화 시스템 구현으로 **생산성 향상 가능성을 확인**했습니다. 
 **프롬프트 엔지니어링의 중요성**을 깨달았으며, 향후 **설명 품질 고도화, 기능 확장(다국어/이미지 기반), SEO 최적화** 등을 통해 개선할 계획입니다.
 
-![연구 결과 이미지](https://github.com/user-attachments/assets/연구_결과_이미지_경로.png) ![시사점 및 개선 방안 이미지](https://github.com/user-attachments/assets/시사점_개선_방안_이미지_경로.png) ---
 
 * **개발자:** [yeonhwa88](https://github.com/yeonhwa88)
